@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/bookstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/kafka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/safetech-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +100,7 @@
       <workItem from="1593103957662" duration="1310000" />
       <workItem from="1593220174287" duration="176000" />
       <workItem from="1593724798273" duration="768000" />
-      <workItem from="1598123261913" duration="4836000" />
+      <workItem from="1598123261913" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
