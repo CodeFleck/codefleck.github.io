@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Add blockchain project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Add blockchain project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +102,7 @@
       <workItem from="1604167078774" duration="85000" />
       <workItem from="1604236984735" duration="22000" />
       <workItem from="1629242581735" duration="133000" />
-      <workItem from="1632331901750" duration="7484000" />
+      <workItem from="1632331901750" duration="8135000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
