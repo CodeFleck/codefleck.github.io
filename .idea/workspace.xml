@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Add blockchain project">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/aimsio-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/aimsio-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bookstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/bookstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/codepet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/codepet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/corona-virus-stats.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/corona-virus-stats.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/criptoclima.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/criptoclima.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/favicon/corona-virus-stats (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/favicon/corona-virus-stats (2).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/jenkins.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/jenkins.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/kafka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/kafka.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/linux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/safetech-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/safetech-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -140,7 +125,8 @@
       <workItem from="1636634690850" duration="2268000" />
       <workItem from="1636638251102" duration="671000" />
       <workItem from="1637060551820" duration="1576000" />
-      <workItem from="1640442478184" duration="757000" />
+      <workItem from="1640442478184" duration="948000" />
+      <workItem from="1640447096722" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
