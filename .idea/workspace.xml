@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Add blockchain project">
+    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Update emtec info">
+      <change afterPath="$PROJECT_DIR$/static/img/emtec-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kotlin-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/search-engine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -127,6 +135,7 @@
       <workItem from="1637060551820" duration="1576000" />
       <workItem from="1640442478184" duration="948000" />
       <workItem from="1640447096722" duration="368000" />
+      <workItem from="1649588037477" duration="6498000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
@@ -151,11 +160,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add blockchain project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add blockchain project" />
+    <MESSAGE value="Update emtec info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update emtec info" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="masterDetails">

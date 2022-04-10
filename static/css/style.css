@@ -277,6 +277,19 @@ small { display: none;}
 .teal {
 	background-color: #008073 !important
 }
+
+.kotlin-logo {
+	padding-top: 30px
+}
+
+.spring-logo {
+	padding-top: 13px;
+}
+
+.dl4j-logo {
+	padding-top: 25px;
+}
+
 @media (min-width: 1200px) {
 	#experience .container {
 		width: 860px
