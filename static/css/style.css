@@ -101,7 +101,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../img/daniel.jpg) no-repeat top center/cover;
+	background: url(../img/daniel.png) no-repeat top center/cover;
 	position: relative;
 }
 #intro.section .container {
@@ -309,7 +309,7 @@ small { display: none;}
 }
 @media (max-width: 992px) {
 	main {
-		padding-left: 0px;
+		padding-left: 0;
 		padding-top: 64px;
 	}
 	ul.side-nav a {
