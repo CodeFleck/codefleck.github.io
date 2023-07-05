@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Update emtec info">
-      <change afterPath="$PROJECT_DIR$/static/img/daniel.png" afterDir="false" />
+    <list default="true" id="5e62c78c-dd4b-4082-8a47-22c515497231" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/daniel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/daniel_b.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +61,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/daniel.fleck/IdeaProjects/codefleck.github.io"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/daniel.fleck/IdeaProjects/codefleck.github.io&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danie\IdeaProjects\codefleck.github.io\static\img" />
@@ -126,6 +125,9 @@
       <workItem from="1656609482446" duration="1467000" />
       <workItem from="1656956581915" duration="282000" />
       <workItem from="1661298638353" duration="607000" />
+      <workItem from="1677608960861" duration="200000" />
+      <workItem from="1677609280281" duration="808000" />
+      <workItem from="1677610096938" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
@@ -134,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556480437197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove public email">
+      <created>1677609150109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677609150109</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove public email">
+      <created>1677609606394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677609606394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1677610222180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677610222180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +177,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add blockchain project" />
     <MESSAGE value="Update emtec info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update emtec info" />
+    <MESSAGE value="Remove public email" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="masterDetails">
