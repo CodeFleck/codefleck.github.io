@@ -101,7 +101,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../img/daniel_d.jpeg) no-repeat top center/cover;
+	background: url(../img/homepage.png) no-repeat top center/cover;
 	position: relative;
 }
 #intro.section .container {

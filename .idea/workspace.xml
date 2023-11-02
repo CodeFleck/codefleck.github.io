@@ -43,6 +43,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -66,6 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/daniel.fleck/IdeaProjects/codefleck.github.io&quot;
   }
 }</component>
@@ -128,6 +132,7 @@
       <workItem from="1677608960861" duration="200000" />
       <workItem from="1677609280281" duration="808000" />
       <workItem from="1677610096938" duration="615000" />
+      <workItem from="1698954700489" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Add blockchain project">
       <created>1556480437197</created>
