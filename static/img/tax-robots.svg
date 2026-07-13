@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00695c"/>
+      <stop offset="1" stop-color="#004d40"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- certificate document -->
+  <rect x="210" y="80" width="180" height="240" rx="10" fill="#fff" opacity="0.95"/>
+  <rect x="235" y="115" width="130" height="12" rx="6" fill="#b0bec5"/>
+  <rect x="235" y="145" width="130" height="12" rx="6" fill="#cfd8dc"/>
+  <rect x="235" y="175" width="90" height="12" rx="6" fill="#cfd8dc"/>
+  <!-- check seal -->
+  <circle cx="330" cy="255" r="38" fill="#26a69a"/>
+  <path d="M312 255 l13 13 l24 -26" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- gear = automation -->
+  <g transform="translate(228,242)" fill="#ffb300">
+    <circle r="24"/>
+    <g stroke="#ffb300" stroke-width="10" stroke-linecap="round">
+      <line x1="0" y1="-32" x2="0" y2="-24"/><line x1="0" y1="24" x2="0" y2="32"/>
+      <line x1="-32" y1="0" x2="-24" y2="0"/><line x1="24" y1="0" x2="32" y2="0"/>
+      <line x1="-23" y1="-23" x2="-17" y2="-17"/><line x1="17" y1="17" x2="23" y2="23"/>
+      <line x1="23" y1="-23" x2="17" y2="-17"/><line x1="-17" y1="17" x2="-23" y2="23"/>
+    </g>
+    <circle r="10" fill="#004d40"/>
+  </g>
+</svg>

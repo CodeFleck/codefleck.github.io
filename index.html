@@ -16,13 +16,15 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Daniel Fleck | Software Engineer">
-    <meta property="og:description" content="Daniel's portfolio">
+    <meta property="og:description"
+          content="Senior software engineer building AI-powered automation: trading signals with Claude, government-site robots, industrial IoT.">
     <meta property="og:url" content="codefleck.github.io">
     <meta property="og:site_name" content="Daniel Fleck | Software Engineer">
     <meta property="article:publisher" content="codefleck.github.io">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="static/img/codefleck-logo.jpeg">
     <meta name="author" content="Daniel Fleck">
-    <meta name="description" content="This is Daniel Fleck">
+    <meta name="description"
+          content="Daniel Fleck — senior software engineer building AI-powered automation: trading signals with Claude, government-site robots, industrial IoT.">
     <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
@@ -41,21 +43,6 @@
     <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="robots" content="index, follow">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138316016-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-138316016-1');
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9512528564525865"
-            crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- Navigation Menu-->
@@ -122,7 +109,7 @@
         <div class="container">
             <h1>
                 <a class="typewrite" style="color:#fff;" data-period="2000"
-                   data-type='[ "Hello, I am Daniel.", "I enjoy working with petabytes of data." ]'>
+                   data-type='[ "Hello, I am Daniel.", "I build AI-powered automation.", "I enjoy working with petabytes of data." ]'>
                     <span class="wrap"></span>
                 </a>
             </h1>
@@ -134,8 +121,10 @@
             <p>Born in <a href="https://goo.gl/maps/c9L5SAcA2wT9StZn8">Edmonton</a>, Canada but raised in Southern
                 Brazil, you can speak to me both in English and Portuguese. Currently living in beautiful <a
                         href="https://maps.app.goo.gl/HKU1XBD86BhrTpSc6">British Columbia</a>,
-                I'm a remote software engineer specializing in enterprise web applications.</p>
-            <p><strong>Current Focus</strong>:&nbsp;<a aria-label="">Microservices in Kotlin.</a></p>
+                I'm a remote senior software engineer specializing in enterprise web applications and AI-powered
+                automation — systems where LLMs do the heavy lifting and a human stays in the loop where it counts.</p>
+            <p><strong>Current Focus</strong>:&nbsp;<a aria-label="">AI agent systems with Claude — trading-signal
+                analysis, industrial IoT anomaly detection, and government-site automation.</a></p>
         </div>
     </section>
     <section id="experience" class="section scrollspy">
@@ -386,64 +375,57 @@
         <h3 class="page-title white-text teal">Projects</h3>
         <div class="container">
             <div class="row">
-                <!--Simple Search Engine-->
+                <!--FleckBot V2-->
                 <div class="col s12 m6 l4">
                     <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="simple search engine"
-                                                                                          src="static/img/search-engine.png"
-                                                                                          class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Simple Search Engine<i
+                        <div class="card-image waves-effect waves-block waves-light"><img alt="FleckBot mascot"
+                                                                                          src="static/img/fleckbot-v2.png"
+                                                                                          class="activator"
+                                                                                          style="object-fit: contain; padding: 12px;"></div>
+                        <div class="card-content"><span class="card-title activator teal-text hoverline">FleckBot V2<i
                                 class="mdi-navigation-more-vert right"></i></span>
-                            <p>A simple search engine that processes a limited collection of data and searches it for a
-                                word or a phrase. A Kotlin project.</p>
+                            <p>Human-in-the-loop AI trading signals: Claude analyzes the market, I approve every trade,
+                                and an honest scoreboard tracks it against buy &amp; hold.</p>
                         </div>
                         <div class="card-reveal"><span class="card-title brown-text">Overview<i
                                 class="mdi-navigation-close right"></i></span>
                             <ul>
-                                <li><strong>Kotlin</strong></li>
-                                <li><strong>File Input</strong></li>
-                                <li><strong>Search Strategy Options</strong></li>
+                                <li><strong>Claude as the market analyst</strong> — tiered model routing keeps AI costs at pennies a day</li>
+                                <li>Every signal needs human approval — nothing trades on its own</li>
+                                <li>Honest attribution: does each model actually beat buy &amp; hold?</li>
+                                <li>Paper trading with real market data, risk guards, kill switch</li>
+                                <li><strong>Python / FastAPI · React / TypeScript · PostgreSQL</strong></li>
+                                <li>Private repo — public case study coming</li>
                             </ul>
-                            <div class="card-action">
-                                <a aria-label="Visit web app" href="https://github.com/CodeFleck/SimpleSearchEngine"
-                                   target="_blank" data-position="top" data-tooltip="View Online"
-                                   class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <!--Corona Virus Stats-->
+                <!--Industrial Cloud-->
                 <div class="col s12 m6 l4">
                     <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="corona virus stats"
-                                                                                          src="static/img/corona-virus-stats.png"
+                        <div class="card-image waves-effect waves-block waves-light"><img alt="Industrial Cloud dashboard"
+                                                                                          src="static/img/indcloud-dashboard.png"
                                                                                           class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Corona Virus Stats<i
+                        <div class="card-content"><span class="card-title activator teal-text hoverline">Industrial Cloud<i
                                 class="mdi-navigation-more-vert right"></i></span>
-                            <p>React project. API connection and display of Corona Virus Stats</p>
+                            <p>A self-hostable industrial IoT platform: device telemetry in, live dashboards, rules,
+                                alerts, and ML anomaly detection out.</p>
                         </div>
                         <div class="card-reveal"><span class="card-title brown-text">Overview<i
                                 class="mdi-navigation-close right"></i></span>
                             <ul>
-                                <li><strong>React 16.12.0</strong></li>
-                                <li><strong>Material UI</strong></li>
-                                <li><strong>API connection with Axios</strong></li>
+                                <li>MQTT + HTTP telemetry ingestion with per-device auth</li>
+                                <li>Drag-and-drop live dashboards over WebSockets</li>
+                                <li>Rules engine, multi-channel alerts, plugin marketplace</li>
+                                <li>ML anomaly detection with LLM-assisted root-cause analysis</li>
+                                <li><strong>Spring Boot / Kotlin DSL · React · PostgreSQL · Mosquitto</strong></li>
+                                <li>Python, JS and Java client SDKs</li>
                             </ul>
-                            <div class="card-action">
-                                <a aria-label="Visit Saved By The Test web app"
-                                   href="https://sleepy-pare-7c62fa.netlify.app/" target="_blank" data-position="top"
-                                   data-tooltip="View Online"
-                                   class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                                    <i class="fa fa-external-link"></i>
-                                </a>
-                                <a aria-label="Visit web app" href="https://github.com/CodeFleck/corona-virus-stats.git"
-                                   target="_blank" data-position="top" data-tooltip="View Online"
-                                   class="btn-floating btn-large waves-effect waves-light brown tooltipped">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </div>
+                            <div class="card-action"><a aria-label="Read the Industrial Cloud build journal"
+                                                        href="https://github.com/CodeFleck/weekly-Industrial-Cloud"
+                                                        target="_blank" data-position="top" data-tooltip="Build journal"
+                                                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                                    class="fa fa-github"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -476,148 +458,54 @@
                         </div>
                     </div>
                 </div>
-                <!--Blockchain-->
+                <!--Brazilian Tax-Certificate Robots-->
                 <div class="col s12 m6 l4">
                     <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="Blockchain in java"
-                                                                                          src="static/img/blockchain.png"
+                        <div class="card-image waves-effect waves-block waves-light"><img alt="tax certificate automation"
+                                                                                          src="static/img/tax-robots.svg"
                                                                                           class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Blockchain<i
+                        <div class="card-content"><span class="card-title activator teal-text hoverline">Tax-Certificate Robots<i
                                 class="mdi-navigation-more-vert right"></i></span>
-                            <p>An implementation of a custom blockchain in Java.</p>
+                            <p>Robots that fetch Brazilian tax-compliance certificates from six different government
+                                systems — anti-bot defenses, CAPTCHAs and all.</p>
                         </div>
                         <div class="card-reveal"><span class="card-title brown-text">Overview<i
                                 class="mdi-navigation-close right"></i></span>
                             <ul>
-                                <li><strong>Java 1.8</strong></li>
-                                <li><strong>Wallets</strong></li>
-                                <li><strong>Private and public keys with Java Security lib</strong></li>
-                                <li><strong>Implements proof-of-work</strong></li>
-                                <li><strong>Validated transactions recorded in blockchain</strong></li>
-                                <li><strong>Genesis block initiated with 100 coins</strong></li>
+                                <li>Headless browser automation against real government sites</li>
+                                <li>Defeats anti-bot fingerprinting, session mazes and legacy flows</li>
+                                <li>Six independent gov systems, one unified certificate pipeline</li>
+                                <li><strong>Node / TypeScript · Puppeteer · React</strong></li>
+                                <li>Private repo — built for a real compliance workflow</li>
                             </ul>
-                            <div class="card-action"><a aria-label="Visit the GitHub repo for project"
-                                                        href="https://github.com/CodeFleck/custom-java-blockchain"
-                                                        target="_blank" data-position="top" data-tooltip="View Source"
-                                                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-                                    class="fa fa-github"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Kafka -->
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="Apacha Kafka logo"
-                                                                                          src="static/img/kafka.jpg"
-                                                                                          class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Apache Kafka<i
-                                class="mdi-navigation-more-vert right"></i></span>
-                            <p>A publish/subcribe message system with Apache Kafka.</p>
-                        </div>
-                        <div class="card-reveal"><span class="card-title brown-text">Overview<i
-                                class="mdi-navigation-close right"></i></span>
-                            <ul>
-                                <li>Publish and subscribe to streams of records</li>
-                                <li>Store streams of records in sequence</li>
-                                <li>Process streams of records in real time</li>
-                                <li>Handle multi producers and consumers</li>
-                                <li>Java 8, Spring Boot</li>
-                            </ul>
-                            <div class="card-action"><a aria-label="Visit the GitHub repo for Code Pet project"
-                                                        href="https://github.com/CodeFleck/kafkaSpringbootExample"
-                                                        target="_blank" data-position="top" data-tooltip="View Source"
-                                                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-                                    class="fa fa-github"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Codepet -->
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="Code Pet logo"
-                                                                                          src="static/img/codepet.jpg"
-                                                                                          class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Code Pet<i
-                                class="mdi-navigation-more-vert right"></i></span>
-                            <p>A deep learning image classifier for animal species.</p>
-                        </div>
-                        <div class="card-reveal"><span class="card-title brown-text">Overview<i
-                                class="mdi-navigation-close right"></i></span>
-                            <ul>
-                                <li>Classify images from animals by race</li>
-                                <li>System retuns percentage of accuracy</li>
-                                <li>Java 1.8</li>
-                                <li>Springboot</li>
-                                <li>Deeplearning4j</li>
-                            </ul>
-                            <div class="card-action"><a aria-label="Visit the GitHub repo for Code Pet project"
-                                                        href="https://github.com/CodeFleck/codepet" target="_blank"
-                                                        data-position="top" data-tooltip="View Source"
-                                                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-                                    class="fa fa-github"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <!-- Fleckbot -->
                 <div class="col s12 m6 l4">
                     <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="Code Pet logo"
+                        <div class="card-image waves-effect waves-block waves-light"><img alt="Fleckbot price chart"
                                                                                           src="static/img/chart.png"
                                                                                           class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Fleckbot<i
+                        <div class="card-content"><span class="card-title activator teal-text hoverline">Fleckbot (2018)<i
                                 class="mdi-navigation-more-vert right"></i></span>
-                            <p>An intelligent Bitcoin trading bot</p>
+                            <p>Where it all started: an autonomous Bitcoin trading bot with LSTM price prediction —
+                                now being reborn with Claude as the analyst.</p>
                         </div>
                         <div class="card-reveal"><span class="card-title brown-text">Overview<i
                                 class="mdi-navigation-close right"></i></span>
                             <ul>
-                                <li>Restful integration with exchange's API</li>
-                                <li>System update itself every minute with BTC price</li>
-                                <li>Utilizes deep learning LSTM algorithm for decision making</li>
-                                <li>Automate purchase and sell orders</li>
-                                <li>Backtesting environment</li>
-                                <li>Custom strategies with technical indicators</li>
-                                <li>Java 8, Spring MVC, Spring Security, Deeplearning4j</li>
-                                <li>PostgresSQL, JPA, Hibernate</li>
+                                <li>LSTM neural networks (DeepLearning4j) predicting next-period price</li>
+                                <li>ta4j backtesting over four years of minute data</li>
+                                <li>Live Bitfinex integration and a web dashboard for training networks</li>
+                                <li>Java 8, Spring MVC, Spring Security, PostgreSQL</li>
+                                <li>The 2026 rebirth (FleckBot V2) replaces the LSTM with Claude</li>
                             </ul>
                             <div class="card-action"><a aria-label="Visit the GitHub repo for Fleckbot project"
                                                         href="https://github.com/CodeFleck/fleckbot" target="_blank"
                                                         data-position="top" data-tooltip="View Source"
                                                         class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
                                     class="fa fa-github"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Ecommerce-->
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light"><img alt="bookstore"
-                                                                                          src="static/img/bookstore.png"
-                                                                                          class="activator"></div>
-                        <div class="card-content"><span class="card-title activator teal-text hoverline">Book Store<i
-                                class="mdi-navigation-more-vert right"></i></span>
-                            <p>An e-commerce proof of concept</p>
-                        </div>
-                        <div class="card-reveal"><span class="card-title brown-text">Overview<i
-                                class="mdi-navigation-close right"></i></span>
-                            <ul>
-                                <li>Backend in Java 8 and Spring Boot</li>
-                                <li>Frontend in Angular 10</strong></li>
-                                <li>MySQL Database</li>
-                                <li>Unit tests with JUnit and Mockito</li>
-                            </ul>
-                            <div class="card-action">
-                                <a aria-label="Visit the GitHub repo for Saved By the Text project"
-                                   href="https://github.com/CodeFleck/safetechBackend" target="_blank"
-                                   data-position="top" data-tooltip="View Backend Source"
-                                   class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-                                        class="fa fa-github"></i></a>
-                                <a aria-label="Visit the GitHub repo for Saved By the Text project"
-                                   href="https://github.com/CodeFleck/safetechFrontend" target="_blank"
-                                   data-position="top" data-tooltip="View Frontend Source"
-                                   class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-                                        class="fa fa-github"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -648,6 +536,25 @@
         <div class="container">
             <div class="card">
                 <div class="card-content">
+                    <h4 class="brown-text light">AI &amp; LLM Systems</h4>
+                    <div class="row text-center">
+                        <div class="col s4 m2"><img alt="claude logo" src="static/img/claude.svg"
+                                                    class="responsive-img">Claude / LLM agents
+                        </div>
+                        <div class="col s4 m2"><img alt="python logo" src="static/img/python.svg"
+                                                    class="responsive-img">Python
+                        </div>
+                        <div class="col s4 m2"><img alt="fastapi logo" src="static/img/fastapi.svg"
+                                                    class="responsive-img">FastAPI
+                        </div>
+                        <div class="col s4 m2"><img alt="mqtt logo" src="static/img/mqtt.svg"
+                                                    class="responsive-img">MQTT / IoT
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
                     <h4 class="brown-text light">Back end</h4>
                     <div class="row text-center">
                         <div class="col s4 m2"><img alt="java logo" src="static/img/java-logo.png"
@@ -659,7 +566,9 @@
                         <div class="col s4 m2"><img alt="spring logo" src="static/img/spring-logo.png"
                                                     class="responsive-img spring-logo">Spring
                         </div>
-<!--                        <div class="col s4 m2"><img alt="deeplearning4j logo" src="static/img/deeplearning4j-logo.png" class="responsive-img dl4j-logo">Deeplearning4j </div>-->
+                        <div class="col s4 m2"><img alt="python logo" src="static/img/python.svg"
+                                                    class="responsive-img">Python
+                        </div>
                     </div>
                 </div>
             </div>
@@ -675,6 +584,9 @@
                                                     class="responsive-img">Bootstrap
                         </div>
                         <div class="col s4 m2"><img alt="react logo" src="static/img/react.png" class="responsive-img">React
+                        </div>
+                        <div class="col s4 m2"><img alt="typescript logo" src="static/img/typescript.svg"
+                                                    class="responsive-img">TypeScript
                         </div>
 <!--                        <div class="col s4 m2"><img alt="angular logo" src="static/img/angular.png"-->
 <!--                                                    class="responsive-img">Angular-->
